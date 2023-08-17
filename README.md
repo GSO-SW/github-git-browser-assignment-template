@@ -24,12 +24,6 @@ Wenn Sie diesen Leitfaden durchlaufen, nehmen wir an, dass Sie bereits ein Repos
 
 Die Erstellung von Repositorys und deren detaillierte Konfiguration sind ein eigenes großes Thema und werden in einem kommenden Tutorial ausführlich behandelt. Für jetzt ist es ausreichend zu wissen, dass Sie ein Arbeitsumfeld haben, in dem Sie Ihre Codeänderungen sicher speichern können.
 
-
-Nutzen Sie die [Implementierung](./Aufgabe1_Namensliste/Program.cs) von Herrn Schneider und erweitern Sie diese so, dass die Namen nacheinander in der Konsole ausgegeben werden. :bust_in_silhouette:**Einzelarbeit**  | :clock130: **15 min**
-
-> :information_source: **Hinweise**:exclamation:
-> + Committen und pushen Sie ihre Arbeit oder fügen Sie diese über die Github Oberfläche in Ihr Repository ein.
-
 ---
 
 ### 2. Schritt für Schritt: Änderungen committen
