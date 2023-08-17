@@ -6,16 +6,17 @@ In der heutigen digitalen Welt ist das Verständnis von Versionierung und Kollab
 
 GitHub ist nicht nur ein Werkzeug für professionelle Entwickler. Es kann auch für Schulprojekte, Gruppenarbeiten oder persönliche Projekte genutzt werden. Es hilft dir, deinen Code zu organisieren, Änderungen zu verfolgen und mit anderen zusammenzuarbeiten.
 
-In diesem Tutorial lernst du:
+In diesem Tutorial lernen Sie:
 
-+ Wie du Änderungen an deinem Code "commitest" und diese auf GitHub hochlädst.
-+ Wie du eine neue "Branch" erstellst, um an neuen Features oder Änderungen zu arbeiten, ohne den Hauptcode zu beeinflussen.
-+ Und schließlich, wie du einen "Pull-Request" erstellst, um vorgeschlagene Änderungen mit deinem Team zu besprechen und sie schließlich in den Hauptcode zu integrieren.
-Lass uns beginnen!
++ Wie Sie Änderungen an Ihrem Code "commiten" und diese auf GitHub hochladen.
++ Wie Sie eine neue "Branch" erstellen, um an neuen Features oder Änderungen zu arbeiten, ohne den Hauptcode zu beeinflussen.
++ Und schließlich, wie Sie einen "Pull-Request" erstellen, um vorgeschlagene Änderungen mit Ihrem Team zu besprechen und sie schließlich in den Hauptcode zu integrieren.
+
+Lassen Sie uns beginnen!
 
 ---
 **Ziel**:
-Ihr sollt lernen, wie man einfache Fehler in Dokumentationsdateien korrigiert und diese Änderungen in ein Git-Repository einpflegt.
+Sie sollen lernen, wie man einfache Fehler in Dokumentationsdateien korrigiert und diese Änderungen in ein Git-Repository einpflegt.
 
 **Ausgangssituation**:   
 ```
@@ -31,7 +32,7 @@ Ein Repository (oft einfach "Repo" genannt) ist im Kontext von GitHub ein Speich
 
 In Bezug auf GitHub Classroom:
 
-Wenn Sie diesen Leitfaden durchlaufen, nehmen wir an, dass Sie bereits ein Repository über GitHub Classroom erstellt haben. GitHub Classroom ist ein Tool, das speziell entwickelt wurde, um den Unterrichtsprozess für Lehrer und Schüler zu vereinfachen. Wenn Sie über einen Link in GitHub Classroom ein Repository erstellen, wird es automatisch auf "internal" gestellt. Das bedeutet, dass das Repository privat bleibt und nur von den eingeladenen Personen eingesehen werden kann.
+Wenn Sie diesen Leitfaden durchlaufen, gehen wir davon aus, dass Sie bereits ein Repository über GitHub Classroom erstellt haben. GitHub Classroom ist ein Tool, das speziell entwickelt wurde, um den Unterrichtsprozess für Lehrer und Schüler zu vereinfachen. Wenn Sie über einen Link in GitHub Classroom ein Repository erstellen, wird es automatisch auf "internal" gestellt. Das bedeutet, dass das Repository privat bleibt und nur von den eingeladenen Personen eingesehen werden kann.
 
 Die Erstellung von Repositorys und deren detaillierte Konfiguration sind ein eigenes großes Thema und werden in einem kommenden Tutorial ausführlich behandelt. Für jetzt ist es ausreichend zu wissen, dass Sie ein Arbeitsumfeld haben, in dem Sie Ihre Codeänderungen sicher speichern können.
 
@@ -40,7 +41,7 @@ Die Erstellung von Repositorys und deren detaillierte Konfiguration sind ein eig
 ### 2. Änderungen committen
 
 - [ ] 1. **Datei Ändern**
-  + In der **'hello-world.cs'** Datei gibt es einen Schreibfehler, den ihr korrigieren sollt.  Korrigiert den Text, indem ihr **"Morld"** durch **"World"** ersetzt.
+  + In der **'hello-world.cs'** Datei gibt es einen Schreibfehler, den Sie korrigieren sollen.  Korrigieren Sie den Text, indem Sie **"Morld"** durch **"World"** ersetzen.
 - [ ] 2. **Änderung übernehmen**   
   + Committen Sie Ihre Änderung indem Sie auf den **"Commit changes..."** - Button clicken.   
     ![Commit changes button](https://github.com/GSO-SW/public_content_gso/blob/a0a27f20e215e2e1ee2b3d24cb645f8ce2cb8a25/Tutorial-Cred/GitHub-Tutorial/commit-changes.PNG)   
@@ -49,7 +50,7 @@ Die Erstellung von Repositorys und deren detaillierte Konfiguration sind ein eig
 - [ ] 3. **Commits ansehen**
     + Clicken Sie auf commits und sehen sie alle commits auf main ein.   
       ![commits](https://github.com/GSO-SW/public_content_gso/blob/b11dc2c9adfbaef9fdc920e3ab3b86c7ba9fec85/Tutorial-Cred/GitHub-Tutorial/commits.PNG)
-    + Clicken Sie auf ihren letzten Commit und sehen Sie die Änderung ein.
+    + Clicken Sie auf Ihren letzten Commit und sehen Sie die Änderung ein.
     + Hinterlassen Sie einen Kommentar,in der von Ihnen geänderten Zeile (Zeile wird grün angezeigt). Der kommentar 
       könnte folgendermaßen aussehen:
       ``` # Meine erster GitHub Commit :100:``` Die Formatierung geschied bei GitHub immer im [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)-Format.   
@@ -91,11 +92,11 @@ Die Erstellung von Repositorys und deren detaillierte Konfiguration sind ein eig
 
 - [ ] 3. **Pull-Request-mergen**
       Sie haben nun eine Anfrage gestellt die Änderungen von **'neues_feature'** auf **'main'** zu übernehmen.
-      + Rufen Sie alle Anfragen auf, indem sie auf **'pull requests'** klicken.    
-      ![pull-requests](https://github.com/GSO-SW/public_content_gso/blob/0caaeb783e71af139017928ffcc028e198c72162/Tutorial-Cred/GitHub-Tutorial/all-pull-request.PNG)
-      + Schauen Sie welche Änderung die Anfrag enthät indem sie auf **'Files changed'** klicken.   
-      ![files-changed](https://github.com/GSO-SW/public_content_gso/blob/0caaeb783e71af139017928ffcc028e198c72162/Tutorial-Cred/GitHub-Tutorial/File-changes.PNG)
-      + Zurück auf **'conversation'** können Sie, den Änderungen zustimmen. Die Branch **'neues_feature'** wird mit der Branch **'main'** gemerged (verschmolzen). Hierfür klicken Sie auf **'Merge pull request'**.
-      ![merge](https://github.com/GSO-SW/public_content_gso/blob/0caaeb783e71af139017928ffcc028e198c72162/Tutorial-Cred/GitHub-Tutorial/merge-pull-request.PNG)
-      + Vergewissern Sie sich das die Änderungen in die main-Branch übernommen wurden.
+    + Rufen Sie alle Anfragen auf, indem sie auf **'pull requests'** klicken.    
+      ![pull-requests](https://github.com/GSO-SW/public_content_gso/blob/0caaeb783e71af139017928ffcc028e198c72162/Tutorial-Cred/GitHub-Tutorial/all-pull-request.PNG)   
+    + Schauen Sie welche Änderung die Anfrag enthät indem sie auf **'Files changed'** klicken.   
+      ![files-changed](https://github.com/GSO-SW/public_content_gso/blob/0caaeb783e71af139017928ffcc028e198c72162/Tutorial-Cred/GitHub-Tutorial/File-changes.PNG)   
+    + Zurück auf **'conversation'** können Sie, den Änderungen zustimmen. Die Branch **'neues_feature'** wird mit der Branch **'main'** gemerged (verschmolzen). Hierfür klicken Sie auf **'Merge pull request'**.   
+      ![merge](https://github.com/GSO-SW/public_content_gso/blob/0caaeb783e71af139017928ffcc028e198c72162/Tutorial-Cred/GitHub-Tutorial/merge-pull-request.PNG)   
+    + Vergewissern Sie sich das die Änderungen in die main-Branch übernommen wurden.
   
