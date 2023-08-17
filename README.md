@@ -13,6 +13,7 @@ In diesem Tutorial lernst du:
 + Und schließlich, wie du einen "Pull-Request" erstellst, um vorgeschlagene Änderungen mit deinem Team zu besprechen und sie schließlich in den Hauptcode zu integrieren.
 Lass uns beginnen!
 
+---
 
 ### 1. Repository-Erstellung
 **Was sind Repositorys?**   
