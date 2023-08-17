@@ -14,6 +14,16 @@ In diesem Tutorial lernst du:
 Lass uns beginnen!
 
 ---
+**Ziel**:
+Ihr sollt lernen, wie man einfache Fehler in Dokumentationsdateien korrigiert und diese Änderungen in ein Git-Repository einpflegt.
+
+**Ausgangssituation**:   
+```
+Project
+|-- documentation.md
+|--hello-world.cs
+README.md
+```
 
 ### 1. Repository-Erstellung
 **Was sind Repositorys?**   
@@ -27,18 +37,8 @@ Die Erstellung von Repositorys und deren detaillierte Konfiguration sind ein eig
 
 ---
 
-### 2. Schritt für Schritt: Änderungen committen
+### 2. Änderungen committen
 
-**Ziel**:
-Ihr sollt lernen, wie man einfache Fehler in Dokumentationsdateien korrigiert und diese Änderungen in ein Git-Repository einpflegt.
-
-**Ausgangssituation**:
-```
-Project
-|-- documentation.md
-|--hello-world.cs
-README.md
-```
 - [ ] 1. **Datei Ändern**
   + In der **'hello-world.cs'** Datei gibt es einen Schreibfehler, den ihr korrigieren sollt.  Korrigiert den Text, indem ihr **"Morld"** durch **"World"** ersetzt.
 - [ ] 2. **Änderung übernehmen**   
@@ -55,33 +55,47 @@ README.md
       ``` # Meine erster GitHub Commit :100:``` Die Formatierung geschied bei GitHub immer im [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)-Format.   
       ![Kommentieren](https://github.com/GSO-SW/public_content_gso/blob/b11dc2c9adfbaef9fdc920e3ab3b86c7ba9fec85/Tutorial-Cred/GitHub-Tutorial/commit-zeile.png)
     + Gehen Sie zu der Datei **'hello-world.cs'** und kopieren Sie den Link zu diser Datei indem Sie ![Kommentieren](https://github.com/GSO-SW/public_content_gso/blob/b11dc2c9adfbaef9fdc920e3ab3b86c7ba9fec85/Tutorial-Cred/GitHub-Tutorial/mehr.PNG) anclicken und anschlißen **' copy permalink'** anklicken.
-    + Setzen Sie zu der Datei **'documentation.md'**  
-- [ ] 
-
-In eurem Projektverzeichnis befindet sich folgende Struktur:
----
-
-### Aufgabe 3: Präsentation der Plakate
-
-Teilen Sie einzelne Bereiche des Plakats in Ihrer Gruppe auf und stellen Sie diese der Klasse vor. :busts_in_silhouette:**Gruppenarbeit**  | :clock130: **10 min**
-
-> :information_source: **Hinweise**:exclamation:
-> + Zu jedem Plakat gibt die Klasse Feedback zu den Aspekten **Verständlichkeit**, **Gestaltung**, **Inhaltliche Vollständigkeit**.
-> + Machen Sie sich Notizen wenn die anderen gruppen Präsentieren.
-> + Die beiden Plakate mit den meisten Stimmen werden in der Klasse aufgehangen. 
+    + Gehen Sie zu der Datei **'documentation.md'** und fürgen Sien den Link unter die Codezeile.
 
 ---
 
-### Aufgabe 4: Bestimmte Namen
-
-Verändern Sie das Programm so, dass der Benutzer nach einem oder mehreren Namen in der Liste suchen kann. Falls der Name nicht in der Liste vorhanden ist, soll eine Fehlermeldung erscheinen. :bust_in_silhouette:**Einzelarbeit**  | :clock130: **20 min**
-
-> :information_source: **Hinweise**:exclamation:
-> + Committen und pushen Sie ihre Arbeit oder fügen Sie diese über die Github Oberfläche in Ihr Repository ein.
-
-
-# :100: Erfolgskriterien
+### 3. Neue 'Branch' erstellen
+- [ ] 1. **Branch erstellen**   
+    + Clicken Sie obe auf die Main-Branch und erstellen Sie eine neu Branch mit dem Namen **'neues_feature'**   
+      ![neue Branch](https://github.com/GSO-SW/public_content_gso/blob/e184aade392d0c7970d37bcd2e34bfd6cd60928b/Tutorial-Cred/GitHub-Tutorial/neue-branch.PNG)
+    + Wenn Sie jetzt die Branch **'main'** und **'neues_feature'** vergleichen, wird Ihnen auffallen, dass in beiden Zweigen die Dateien gleich sind.
+- [ ] 2. **'Änderung in neuer Branch**
+    + Gehen Sie sicher das Sie sich in der neuen Branch befinden.   
+     ![neue Branch](https://github.com/GSO-SW/public_content_gso/blob/169ac742374452340d62b74a0614e74222e88e11/Tutorial-Cred/GitHub-Tutorial/branch-asuwaehlen.PNG)
+    + Gehen Sie zu der Datei **'hello-world.cs'** und fügen sie fogende Zeile zur bestehenden hinzu:   
+      ```csharp
+      Console.WriteLine("Mein neues Feature");
+      ```
+    + Commiten Sie wieder die Änderung wieder mit dem **"Commit changes..."** - Button.   
+       ![Commit changes button](https://github.com/GSO-SW/public_content_gso/blob/a0a27f20e215e2e1ee2b3d24cb645f8ce2cb8a25/Tutorial-Cred/GitHub-Tutorial/commit-changes.PNG)
+    + Vergleichen Sie wieder beide Branches und schauen Sie, ob die Dateien die gleichen sind.
   
-+ Eingesetzten Quellcode kommentieren
-+ Quellcode schreiben der lesbar ist und mit Hilfe einer logischen Folge das Problem löst
-+ Programmausgabe die korrekt, lesbar und richtig formatiert ist 
+---
+
+### 4. Pull-Request erstellen
+- [ ] 1. **Pull-Request**
+    + Wählen Sie die Branch aus, in der Sie ihr neues Feature umgesetzt haben. Anschließend klicken Sie auf **'contribute'** (beitragen)   
+    ![contribute](https://github.com/GSO-SW/public_content_gso/blob/0b5a4ffea367b903e5c6bb57c2d8c5b37e2acf18/Tutorial-Cred/GitHub-Tutorial/contribute.PNG)
+    + Clicken Sie auf **'Open pull-request'** um eine Anfrage an die main-Branch zu schicken.
+- [ ] 2. **Pull-Request-formulieren**
+    + Achten Sie darauf, dass die Anfrage von **'neues_feature'** auf **'main'** gestellet wird
+      **base:main <- compare:neues_feature**
+    + Fügen Sie einen Text hinzu.
+    + Klicken Sie auf **'Create pull request'**   
+      ![contribute](https://github.com/GSO-SW/public_content_gso/blob/dfef0330c3f407752783058f4eec03c2f60860e5/Tutorial-Cred/GitHub-Tutorial/Pull-request.PNG)
+
+- [ ] 3. **Pull-Request-mergen**
+      Sie haben nun eine Anfrage gestellt die Änderungen von **'neues_feature'** auf **'main'** zu übernehmen.
+      + Rufen Sie alle Anfragen auf, indem sie auf **'pull requests'** klicken.    
+      ![pull-requests](https://github.com/GSO-SW/public_content_gso/blob/0caaeb783e71af139017928ffcc028e198c72162/Tutorial-Cred/GitHub-Tutorial/all-pull-request.PNG)
+      + Schauen Sie welche Änderung die Anfrag enthät indem sie auf **'Files changed'** klicken.   
+      ![files-changed](https://github.com/GSO-SW/public_content_gso/blob/0caaeb783e71af139017928ffcc028e198c72162/Tutorial-Cred/GitHub-Tutorial/File-changes.PNG)
+      + Zurück auf **'conversation'** können Sie, den Änderungen zustimmen. Die Branch **'neues_feature'** wird mit der Branch **'main'** gemerged (verschmolzen). Hierfür klicken Sie auf **'Merge pull request'**.
+      ![merge](https://github.com/GSO-SW/public_content_gso/blob/0caaeb783e71af139017928ffcc028e198c72162/Tutorial-Cred/GitHub-Tutorial/merge-pull-request.PNG)
+      + Vergewissern Sie sich das die Änderungen in die main-Branch übernommen wurden.
+  
