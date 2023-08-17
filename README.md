@@ -1,11 +1,29 @@
-<img align="left" src="./AddFiles/C%23_logo.png" width="4%">  
-<h1 style="margin:10;">Datenfelder in der Konsole ausgeben</h1>
+# GitHub-Einführung für SchülerInnen
 
-[Modelunternehmen](./AddFiles/Modelunternehmen.PNG)   
-[Lernsituation](./AddFiles/Einstieg.PNG)
+Herzlich willkommen zu diesem GitHub-Tutorial! 😊
 
-# Arbeitsauftrag
-### Aufgabe 1: Programm anpassen
+In der heutigen digitalen Welt ist das Verständnis von Versionierung und Kollaboration bei der Softwareentwicklung unerlässlich. Egal, ob du ein angehender Entwickler, ein Schüler, der an einem Projekt arbeitet, oder einfach nur neugierig bist, dieses Tutorial wird dir die Grundlagen von GitHub näherbringen.
+
+GitHub ist nicht nur ein Werkzeug für professionelle Entwickler. Es kann auch für Schulprojekte, Gruppenarbeiten oder persönliche Projekte genutzt werden. Es hilft dir, deinen Code zu organisieren, Änderungen zu verfolgen und mit anderen zusammenzuarbeiten.
+
+In diesem Tutorial lernst du:
+
++ Wie du Änderungen an deinem Code "commitest" und diese auf GitHub hochlädst.
++ Wie du eine neue "Branch" erstellst, um an neuen Features oder Änderungen zu arbeiten, ohne den Hauptcode zu beeinflussen.
++ Und schließlich, wie du einen "Pull-Request" erstellst, um vorgeschlagene Änderungen mit deinem Team zu besprechen und sie schließlich in den Hauptcode zu integrieren.
+Lass uns beginnen!
+
+
+### 1. Repository-Erstellung
+**Was sind Repositorys?**   
+Ein Repository (oft einfach "Repo" genannt) ist im Kontext von GitHub ein Speicherort oder Container, in dem alle Dateien für ein bestimmtes Projekt gespeichert werden. Es enthält alle Versionen dieser Dateien, sodass Sie Änderungen über die Zeit verfolgen können. Das ermöglicht es mehreren Personen, an einem Projekt zu arbeiten und ihre Änderungen auf eine organisierte und kollaborative Weise zu verwalten.
+
+In Bezug auf GitHub Classroom:
+
+Wenn Sie diesen Leitfaden durchlaufen, nehmen wir an, dass Sie bereits ein Repository über GitHub Classroom erstellt haben. GitHub Classroom ist ein Tool, das speziell entwickelt wurde, um den Unterrichtsprozess für Lehrer und Schüler zu vereinfachen. Wenn Sie über einen Link in GitHub Classroom ein Repository erstellen, wird es automatisch auf "internal" gestellt. Das bedeutet, dass das Repository privat bleibt und nur von den eingeladenen Personen eingesehen werden kann.
+
+Die Erstellung von Repositorys und deren detaillierte Konfiguration sind ein eigenes großes Thema und werden in einem kommenden Tutorial ausführlich behandelt. Für jetzt ist es ausreichend zu wissen, dass Sie ein Arbeitsumfeld haben, in dem Sie Ihre Codeänderungen sicher speichern können.
+
 
 Nutzen Sie die [Implementierung](./Aufgabe1_Namensliste/Program.cs) von Herrn Schneider und erweitern Sie diese so, dass die Namen nacheinander in der Konsole ausgegeben werden. :bust_in_silhouette:**Einzelarbeit**  | :clock130: **15 min**
 
@@ -14,7 +32,7 @@ Nutzen Sie die [Implementierung](./Aufgabe1_Namensliste/Program.cs) von Herrn Sc
 
 ---
 
-### Aufgabe 2: Lösungsmethode verschriftlichen
+### 2. Schritt für Schritt: Änderungen committen
 
 Erstellen Sie für Ihre Lösungsmethode ein Plakat das die Syntax und die Anwendung verdeutlicht. :busts_in_silhouette:**Gruppenarbeit**  | :clock130: **30 min**
 
