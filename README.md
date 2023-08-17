@@ -40,21 +40,22 @@ Project
 README.md
 ```
 - [ ] 1. **Datei Ändern**
-  + In der **'hello-worl.cs'** Datei gibt es einen Schreibfehler, den ihr korrigieren sollt.  Korrigiert den Text, indem ihr **"Morld"** durch **"World"** ersetzt.
+  + In der **'hello-world.cs'** Datei gibt es einen Schreibfehler, den ihr korrigieren sollt.  Korrigiert den Text, indem ihr **"Morld"** durch **"World"** ersetzt.
 - [ ] 2. **Änderung übernehmen**   
   + Committen Sie Ihre Änderung indem Sie auf den **"Commit changes..."** - Button clicken.   
     ![Commit changes button](https://github.com/GSO-SW/public_content_gso/blob/a0a27f20e215e2e1ee2b3d24cb645f8ce2cb8a25/Tutorial-Cred/GitHub-Tutorial/commit-changes.PNG)   
   + Geben Sie in einem Commit **immer** ein Commit-Text an, welcher beschreibt, welche Änderung gemacht wurde.
-![Commit changes message](https://github.com/GSO-SW/public_content_gso/blob/a0a27f20e215e2e1ee2b3d24cb645f8ce2cb8a25/Tutorial-Cred/GitHub-Tutorial/Commit-documentation.PNG)   
+![Commit changes message](https://github.com/GSO-SW/public_content_gso/blob/9c8d1907dbb9c6533055e780fcc8ebc2d2d1c829/Tutorial-Cred/GitHub-Tutorial/Commit-Code.PNG)   
 - [ ] 3. **Commits ansehen**
-    + Clicken Sie auf commits und sehen sie alle commits auf main ein.
+    + Clicken Sie auf commits und sehen sie alle commits auf main ein.   
+      ![commits](https://github.com/GSO-SW/public_content_gso/blob/b11dc2c9adfbaef9fdc920e3ab3b86c7ba9fec85/Tutorial-Cred/GitHub-Tutorial/commits.PNG)
     + Clicken Sie auf ihren letzten Commit und sehen Sie die Änderung ein.
-    + Hinterlassen Sie einen Kommentar
-      der könnte folgendermaßen aussehen:
-      ``` # Meine erster GitHub Commit :100:``` Die Formatierung geschied bei GitHub immer im [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)-Format.
-    + Kopieren Sie den Link zur Zeile mit dem Code:
-     ```csharp Console.WriteLine("Hello World");```
-      und fügen Sie siesen under die 
+    + Hinterlassen Sie einen Kommentar,in der von Ihnen geänderten Zeile (Zeile wird grün angezeigt). Der kommentar 
+      könnte folgendermaßen aussehen:
+      ``` # Meine erster GitHub Commit :100:``` Die Formatierung geschied bei GitHub immer im [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)-Format.   
+      ![Kommentieren](https://github.com/GSO-SW/public_content_gso/blob/b11dc2c9adfbaef9fdc920e3ab3b86c7ba9fec85/Tutorial-Cred/GitHub-Tutorial/commit-zeile.png)
+    + Gehen Sie zu der Datei **'hello-world.cs'** und kopieren Sie den Link zu diser Datei indem Sie ![Kommentieren](https://github.com/GSO-SW/public_content_gso/blob/b11dc2c9adfbaef9fdc920e3ab3b86c7ba9fec85/Tutorial-Cred/GitHub-Tutorial/mehr.PNG) anclicken und anschlißen **' copy permalink'** anklicken.
+    + Setzen Sie zu der Datei **'documentation.md'**  
 - [ ] 
 
 In eurem Projektverzeichnis befindet sich folgende Struktur:
