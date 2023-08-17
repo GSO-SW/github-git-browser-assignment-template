@@ -4,7 +4,7 @@ Der gegebene Code ist ein einfaches Programm, geschrieben in C#. Seine Hauptfunk
 
 ### Code:
 ```csharp
-Console.WriteLine("Hello Morld");
+Console.WriteLine("Hello World");
 ```
 
 ### Details:
