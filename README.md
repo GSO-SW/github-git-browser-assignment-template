@@ -29,19 +29,35 @@ Die Erstellung von Repositorys und deren detaillierte Konfiguration sind ein eig
 
 ### 2. Schritt für Schritt: Änderungen committen
 
-Erstellen Sie für Ihre Lösungsmethode ein Plakat das die Syntax und die Anwendung verdeutlicht. :busts_in_silhouette:**Gruppenarbeit**  | :clock130: **30 min**
+**Ziel**:
+Ihr sollt lernen, wie man einfache Fehler in Dokumentationsdateien korrigiert und diese Änderungen in ein Git-Repository einpflegt.
 
-Folgendes sollte Ihr Plakat enthalten:
-+ Syntax
-+ Beschreibung (falls nötig)
-+ Konkretes Beispiel
+**Ausgangssituation**:
+```
+Project
+|-- documentation.md
+|--hello-world.cs
+README.md
+```
+- [ ] 1. **Datei Ändern**
+  + In der **'hello-worl.cs'** Datei gibt es einen Schreibfehler, den ihr korrigieren sollt.  Korrigiert den Text, indem ihr **"Morld"** durch **"World"** ersetzt.
+- [ ] 2. **Änderung übernehmen**   
+  + Committen Sie Ihre Änderung indem Sie auf den **"Commit changes..."** - Button clicken.   
+    ![Commit changes button](https://github.com/GSO-SW/public_content_gso/blob/a0a27f20e215e2e1ee2b3d24cb645f8ce2cb8a25/Tutorial-Cred/GitHub-Tutorial/commit-changes.PNG)   
+  + Geben Sie in einem Commit **immer** ein Commit-Text an, welcher beschreibt, welche Änderung gemacht wurde.
+![Commit changes message](https://github.com/GSO-SW/public_content_gso/blob/a0a27f20e215e2e1ee2b3d24cb645f8ce2cb8a25/Tutorial-Cred/GitHub-Tutorial/Commit-documentation.PNG)   
+- [ ] 3. **Commits ansehen**
+    + Clicken Sie auf commits und sehen sie alle commits auf main ein.
+    + Clicken Sie auf ihren letzten Commit und sehen Sie die Änderung ein.
+    + Hinterlassen Sie einen Kommentar
+      der könnte folgendermaßen aussehen:
+      ``` # Meine erster GitHub Commit :100:``` Die Formatierung geschied bei GitHub immer im [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)-Format.
+    + Kopieren Sie den Link zur Zeile mit dem Code:
+     ```csharp Console.WriteLine("Hello World");```
+      und fügen Sie siesen under die 
+- [ ] 
 
-
-> :information_source: **Hinweise**:exclamation:
-> + Planen Sie Position und Größe einzelner Inhalte zunächst auf einem DIN A4 – Blatt.
-> + Nutzen Sie Farbakzente um unterschiedliche Aspekte hervorzuheben.
-> 
-
+In eurem Projektverzeichnis befindet sich folgende Struktur:
 ---
 
 ### Aufgabe 3: Präsentation der Plakate
