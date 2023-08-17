@@ -8,9 +8,9 @@ GitHub ist nicht nur ein Werkzeug für professionelle Entwickler. Es kann auch f
 
 In diesem Tutorial lernen Sie:
 
-+ Wie Sie Änderungen an Ihrem Code "commiten" und diese auf GitHub hochladen.
-+ Wie Sie eine neue "Branch" erstellen, um an neuen Features oder Änderungen zu arbeiten, ohne den Hauptcode zu beeinflussen.
-+ Und schließlich, wie Sie einen "Pull-Request" erstellen, um vorgeschlagene Änderungen mit Ihrem Team zu besprechen und sie schließlich in den Hauptcode zu integrieren.
++ **Commit**: Ein "Commit" ist im Kontext von Git eine Momentaufnahme Ihres Codes. Es dokumentiert die Änderungen, die Sie vorgenommen haben, und ermöglicht es Ihnen (und anderen), zu einem bestimmten Zeitpunkt in der Entwicklungsgeschichte Ihres Projekts zurückzukehren. [Mehr dazu hier](https://docs.github.com/de/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits).
++ **Branch**: Eine "Branch" (deutsch: Zweig) ermöglicht es Ihnen, an neuen Features oder Bugfixes zu arbeiten, ohne den Hauptcode (oft "master" oder "main" genannt) zu beeinflussen. Dies ist nützlich, um sicherzustellen, dass der Hauptcode stabil bleibt. [Mehr dazu hier](https://docs.github.com/de/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches).
++ **Pull-Request**: Ein "Pull-Request" ist eine Methode, um Änderungen, die Sie in einem Branch gemacht haben, in den Hauptbranch zu integrieren. Es ist auch eine Möglichkeit, Ihre Änderungen zur Überprüfung und Diskussion vorzulegen, bevor sie in den Hauptcode aufgenommen werden. [Mehr dazu hier](https://docs.github.com/de/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 
 Lassen Sie uns beginnen!
 
